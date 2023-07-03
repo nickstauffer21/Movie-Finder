@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { json, checkStatus } from "./utils";
+import "bootstrap/dist/css/bootstrap.css";
 
 const Movie = (props) => {
   const { Title, Year, imdbID, Type, Poster } = props.movie;
